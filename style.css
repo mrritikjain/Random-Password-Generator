@@ -1,0 +1,49 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 2px 2px #dad4d4;
+    background-color: #ffc9c9;
+    font-family: monospace;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 30px;
+}
+.row1{
+    background-color: #fff;
+    border-radius: 10px;
+    padding:5px;
+}
+#password{
+    border: none;
+    height: 100%;
+}
+#copyicon{
+    cursor: pointer;
+}
+#length,#password{
+    width: 100%;
+}
+#generateBtn{
+    margin-top: 20px;
+        width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    background: #ff3737;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+#generateBtn:hover{
+    background: transparent;
+    color: #000;
+    border: 2px solid #ff3737;
+}
